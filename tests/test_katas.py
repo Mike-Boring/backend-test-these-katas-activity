@@ -5,7 +5,7 @@ import katas
 class TestKatas(unittest.TestCase):
     def test_add(self):
         """Test if add() adds x and y."""
-        self.assertEqual(katas.add(5, 2), 7)
+        self.assertEqual(katas.add(6, 2), 8)
 
     def test_multiply(self):
         """Test if multiply() multiplies x by y."""
